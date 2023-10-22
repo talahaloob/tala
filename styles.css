@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,700&display=swap');
+body{
+    margin: 0;
+    padding: 10px 60px;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar a:hover{
+    color: #D1884F;
+}
+
+/* styles.css */
+.split-container {
+    padding: 30px 0;
+    width: 100%;
+}
+
+.left, .right {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.left {
+    margin-top: -65px;
+
+}
+
+.right {
+    color: white;
+}
+
+.circle-image{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-top: -70px;
+}
+
+.vertical-line {
+    background: #3BBADB;
+    width: 350px;
+    height: 390px;
+    position: absolute;
+    transform: skewY(-8deg);
+    top: 75px;
+    left: 25px;
+    border-bottom-left-radius: 67%;}
+
+.circle-image img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-bottom-left-radius: 50%;
+    top: 50px;
+    right: 50px;
+    z-index: 10;    
+
+}
+
+.wel{
+    color: #3BBADB;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.hi{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.6em;
+    color: #008AAA;
+}
+
+.orange-text {
+    color: #D1884F;
+}
+
+.about{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.more{
+    color: #008AAA;
+}
+
+.btn{
+    padding: 0px 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;  
+    margin: 20px 20px 0px 0px;
+    border-radius: 10px;
+    border: 2px solid #008AAA;
+
+}
+
+.btn1{
+    background: #008AAA;
+    color: white;
+}
+
+.btn2{
+    background: white;
+    color: #008AAA;
+}
+
+.btn1:hover{
+    background: white;
+    color: #008AAA;
+}
+
+.btn2:hover{
+    background: #008AAA;
+    color: white;
+}
